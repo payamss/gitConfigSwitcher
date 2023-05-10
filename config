@@ -1,0 +1,13 @@
+# Work account
+Host work
+   HostName github.com
+   User git
+   IdentityFile ~/.ssh/id_rsa
+   LogLevel DEBUG3
+# Personal account, 
+Host personal
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_rsa_personal
+  LogLevel DEBUG3
+  
